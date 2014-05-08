@@ -40,7 +40,7 @@
 
 - (NSInteger)numberOfSectionsInNBTableView:(NBTableView *)tableView
 {
-    return 2;
+    return 1;
 }
 
 - (NSInteger)nbTableViewNumberOfRowsInSection:(NSInteger)section
