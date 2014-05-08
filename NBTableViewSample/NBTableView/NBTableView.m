@@ -75,11 +75,11 @@
         
         float heightOffset = 0.0;
         
-        if ([self headerTitleInSection:i] != nil && dataSource_ && [dataSource_ respondsToSelector:@selector(nbTableViewTitleHeightForHeaderInSection:)]) {
+        if (/*[self headerTitleInSection:i] != nil && */dataSource_ && [dataSource_ respondsToSelector:@selector(nbTableViewTitleHeightForHeaderInSection:)]) {
             heightOffset += [dataSource_ nbTableViewTitleHeightForHeaderInSection:i];
         }
         
-        if ([self footerTitleInSection:i] != nil && dataSource_ && [dataSource_ respondsToSelector:@selector(nbTableViewTitleHeightForFooterInSection:)]) {
+        if (/*[self footerTitleInSection:i] != nil && */dataSource_ && [dataSource_ respondsToSelector:@selector(nbTableViewTitleHeightForFooterInSection:)]) {
             heightOffset += [dataSource_ nbTableViewTitleHeightForFooterInSection:i];
         }
         
