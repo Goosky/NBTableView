@@ -1,7 +1,7 @@
 NBTableView
 ===========
 
-NBTableView
+NBTableView[MRC]
 
- ![image](https://github.com/OpeningO/NBTableView/row/master/ios6.png)
- ![image](https://github.com/OpeningO/NBTableView/row/master/ios7.png)
+ ![image](https://github.com/OpeningO/NBTableView/raw/master/ios6.png)
+ ![image](https://github.com/OpeningO/NBTableView/raw/master/ios7.png)
