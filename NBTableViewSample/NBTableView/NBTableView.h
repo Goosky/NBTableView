@@ -43,7 +43,6 @@ typedef NS_ENUM(NSInteger, NBTableViewStyle) {
 - (CGFloat)nbTableViewTitleHeightForHeaderInSection:(NSInteger)section; // header title height
 - (CGFloat)nbTableViewTitleHeightForFooterInSection:(NSInteger)section; // footer title height
 - (CGFloat)nbTableViewHeightInSection:(NSInteger)section; // subtableview height
-- (BOOL)nbTableViewBouncesInSection:(NSInteger)section; // bounces
 
 @required
 - (NSInteger)nbTableViewNumberOfRowsInSection:(NSInteger)section; // rows in secion

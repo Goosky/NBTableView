@@ -40,7 +40,7 @@
 
 - (NSInteger)numberOfSectionsInNBTableView:(NBTableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)nbTableViewNumberOfRowsInSection:(NSInteger)section
@@ -92,12 +92,5 @@
 {
     return _cellHeight*_row;
 }
-
-- (BOOL)nbTableViewBouncesInSection:(NSInteger)section
-{
-
-    return NO;
-}
-
 
 @end

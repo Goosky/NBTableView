@@ -87,7 +87,6 @@
         UITableView *subView = [_subTableViews objectAtIndex:i];
         frame.size.height = subViewHeight + heightOffset + startY;
         subView.frame = frame;
-        subView.bounces = [self nbTableViewBouncesForSection:i];
         [self addSubview:subView];
     }
     
@@ -102,15 +101,6 @@
 
 
 #pragma mark - Common
-
-- (BOOL)nbTableViewBouncesForSection:(NSInteger)section
-{
-    BOOL ret = YES;
-    if (dataSource_ && [dataSource_ respondsToSelector:@selector(nbTableViewBouncesInSection:)]) {
-        ret = [dataSource_ nbTableViewBouncesInSection:section];
-    }
-    return ret;
-}
 
 - (CGFloat)nbTableHeightForSection:(NSInteger)section
 {
