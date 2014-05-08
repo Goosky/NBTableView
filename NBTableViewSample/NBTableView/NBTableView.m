@@ -201,4 +201,5 @@
 {
     return [self clearHeaderSectionViewInSection:section];
 }
+
 @end
